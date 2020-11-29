@@ -1,0 +1,35 @@
+#contactList {
+  border-collapse: collapse;
+  width: 75%;
+}
+
+#contactList th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 3px;
+  font-size: larger;
+  text-align: left;
+  background-color: lightseagreen;
+  color: black;
+}
+
+#contactList td {
+  padding-left: 3px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-align: left;
+  color: black;
+}
+
+#contactList tr:nth-child(even) {
+  background-color: lightgrey;
+}
+
+#contactList tr:hover {
+  background-color: peru;
+}
+
+th,
+td {
+  border: 1px solid black;
+}
