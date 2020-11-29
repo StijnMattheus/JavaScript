@@ -3,7 +3,8 @@
   width: 75%;
 }
 
-#contactList th {
+#contactList th,
+#inputTable th {
   padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 3px;
